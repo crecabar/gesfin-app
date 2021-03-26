@@ -1,5 +1,5 @@
 FROM php:7.4-fpm-alpine
-WORKDIR "/app"
+WORKDIR "/var/www"
 
 # Install selected extensions and other stuff
 RUN apk update && apk add build-base
